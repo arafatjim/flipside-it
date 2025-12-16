@@ -1,26 +1,41 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* @custom-variant dark (&:is(.dark *)); */
+
+@theme{
+  --font-orbitron:'Orbitron', sans-serif;
+  --color-shop-background: #f3f4f6;
+  --color-shop-header: #FFFFFF;
+  --color-shop-footer: #1F2937;
+  --color-shop-card: #c6f0ef;
+  --color-btn-primary: #0B9693;
+  --color-btn-primary-hover: #9a4deb;
+  --color-btn-secondary: #E2E8F0;
+  --color-btn-secondary-hover: #CBD5E1;
+  --color-primary: #111827;
+  --color-secondary: #6B7280;
+  --color-logo-primary: #0be881;
+  --color-logo-secondary: #575fcf;
+  --font-menu::after 'Menu', sans-serif;
+  --color-logo-font: 'Roboto', sans-serif;
+  --color-heading: 'Orbitron', sans-serif;
+  --color-accent: 'Poppins', sans-serif;
+  --color-shadow-md: rgba(0, 0, 0, 0.1);
+  --color-shadow-lg: rgba(0, 0, 0, 0.2);
+  --color-border: #E5E7EB;
+  --color-input-bg: #F9FAFB;
+  --color-input-border: #D1D5DB;
+  --color-input-focus-border: #3B82F6;
+  --color-link: #3B82F6;
+  --color-link-hover: #2563EB;
+  --color-error: #EF4444;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-info: #3B82F6;
+  --color-badge-bg: #E0E7FF;
+  --color-menu-underline: #2563EB;
+  
+
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
