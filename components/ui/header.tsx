@@ -6,7 +6,7 @@ import HeaderMenue from './header-menu'
 
 const Header = () => {
   return (
-    <header className='bg-white  py-5 px-2 border-b border-b-gray-200 shadow-sm sticky max-w-full top-0 z-50 mx-auto'>
+    <header className='bg-[#0e6b8e]  py-5 px-2 border-b border-b-gray-200 shadow-sm sticky max-w-full top-0 z-50 mx-auto'>
         <Container2  className='flex justify-between w-full mx-auto items-center'> 
         {/* logo  */}
             <Logo />
