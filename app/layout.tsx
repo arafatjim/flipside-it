@@ -22,12 +22,16 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-      <body className="font-orbitron font-medium antialiased px-2"
+      <body className="font-orbitron font-medium antialiased mx-auto"
         
       >
-        <Header />
-        {children}
+        <div className="">
+          <Header />
+        <div className="flex flex-col w-11/12 mx-auto min-h-screen">
+          <main className="flex-1 "> {children} </main>
+        </div>
         <Footer />
+        </div>
       </body>
     </html>
     </ClerkProvider>
