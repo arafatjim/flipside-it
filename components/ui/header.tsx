@@ -13,7 +13,7 @@ const Header = async () => {
   const user = await currentUser()
 
   return (
-    <header className='bg-[#0e6b8e] flex justify-center py-5 shadow-sm sticky w-11/12 top-0 z-50 mx-auto'>
+    <header className='bg-[#0984e3] flex justify-center py-5 shadow-sm sticky w-11/12 top-0 z-50 mx-auto'>
       <Container2 className='flex px-4 justify-between w-full mx-auto items-center'> 
 
         {/* Left */}
@@ -23,7 +23,7 @@ const Header = async () => {
         </div>
 
         {/* Center */}
-        {/* <HeaderMenue /> */}
+        <HeaderMenue />
 
         {/* Right */}
         <div className='flex items-center gap-4'>
