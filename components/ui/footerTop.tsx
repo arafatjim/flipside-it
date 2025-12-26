@@ -35,11 +35,11 @@ const FooterTopInfo = () => {
     <div className="grid text-gray-600 text-xs mx-auto grid-cols-2  border-t-2 border-b-2 border-gray-200 lg:grid-cols-4 gap-8 justify-items-center items-center text-center p-1 md:text-sm">
         {
             FooterTopInf?.map((info, index) => (
-                <div key={index} className="flex rounded-md p-2 w-full border-gray-200 m-auto items-center group hover:scale-105 transition-transform duration-300 cursor-pointer hover:text-[#0e6b8e] hover:bg-gray-200">
-                    <div className="text-center font-bold">
+                <div key={index} className="flex rounded-md p-2 w-full border-gray-200 m-auto items-center group hover:scale-105 transition-transform duration-300 cursor-pointer hover:text-[#0e6b8e] hover:bg-blue-50">
+                    <div className="text-center font-bold pl-3">
                         {info.icon}
                         </div> 
-                    <div className="ml-3 text-left">
+                    <div className="ml-4 text-left">
                             <span className="font-bold "
                             
                             >{info.title}</span>
