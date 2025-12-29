@@ -54,16 +54,22 @@ const Footer = () => {
           </ul>
       </SubText>
 
-      <SubText className=''>
+      <SubText className='px-2'>
         <SubTitle className='pl-1'>Newsletter</SubTitle>
         <div className='p-1'>
           Subscribe to our newsletter to get the latest updates and offers.
         </div>
-        <form action="#" className='grid mt-4 gap-3.5 space-x-2'>
-          <input className='border-2 border-black rounded-md' placeholder='Enter your email' />
-        <Button className='w-2/3'>Subscribe</Button>
+        <form action="#" className='grid mx-2 mt-4 gap-3.5 space-x-2'>
+          <input type="email" placeholder='Enter your email' className='border-2 border-black rounded-md py-2 px-1' name="" id="" />
+        <Button className='w-full'>Subscribe</Button>
+        
         </form>
       </SubText>
+      </div>
+      <div className='py-2 border-t-2 border-gray-300 border-double'>
+        
+        <p className='text-center text-gray-500 text-sm '>© 2025 <Logo className='' />. All rights reserved.</p>
+
       </div>
        </Container2>
     </footer>

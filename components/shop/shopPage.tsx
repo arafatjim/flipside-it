@@ -1,11 +1,11 @@
-// import React from 'react'
+import React from 'react'
 
-// const ShopPage = () => {
-//   return (
-//     <div>
-//       ShopPage
-//     </div>
-//   )
-// }
+const ShopPage = () => {
+  return (
+    <div>
+      ShopPage
+    </div>
+  )
+}
 
-// export default ShopPage
+export default ShopPage
